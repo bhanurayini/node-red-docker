@@ -20,6 +20,9 @@ USER node-red
 COPY package.json /usr/src/node-red/
 RUN npm install
 
+# adding the settings for authentication and importing packages
+COPY ./.node-red/settings.js /usr/src/node-red/
+
 # User configuration directory volume
 EXPOSE 1880
 

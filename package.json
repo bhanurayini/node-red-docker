@@ -10,7 +10,7 @@
     },
     "main": "node_modules/node-red/red/red.js",
     "scripts": {
-        "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red"
+        "start": "node-red --settings settings.js"
     },
     "contributors": [
         {
