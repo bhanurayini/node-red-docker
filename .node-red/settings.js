@@ -65,7 +65,7 @@ module.exports = {
     //debugUseColors: true,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
-    flowFile: (process.env.NODE_RED_FLOWFILE) ? process.env.NODE_RED_FLOWFILE : 'flows.json',
+    // flowFile: (process.env.NODE_RED_FLOWFILE) ? process.env.NODE_RED_FLOWFILE : 'flows.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
@@ -122,9 +122,9 @@ module.exports = {
     adminAuth: {
        type: "credentials",
        users: [{
-           username: process.env.NODE_RED_USERNAME,
-           password: process.env.NODE_RED_PASSWORD,
-           permissions: "*"
+         username: "bhanurayini",
+         password: "$2a$08$c8K9SvOrh2VGH1x15j.HRuMBcYzCxhepqgAzvHODphbwLlHKcxsr6",
+         permissions: "*"
        }]
     },
 
